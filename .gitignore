@@ -1,0 +1,11 @@
+# 插件运行时生成的配置，市场要求不入库
+config.toml
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 系统文件
+.DS_Store
+Thumbs.db
