@@ -117,9 +117,10 @@ MaiBot 1.3.19 的引用不是由 Planner 或 Replyer 决定的，而是回复生
 - 插件 SDK 2.20.0+
 - 目前按 QQ / SnowLuma 适配器验证，其他平台需自行测试
 
-## 发布前注意
+## 仓库说明
 
-`_manifest.json` 里的 `urls.repository`、`homepage`、`documentation`、`issues` 目前是按 `OLDnana1/maibot-better-reply` 写的占位地址。发布到插件市场前，请改成实际仓库地址；`id` 也要与仓库归属一致。
+- `_manifest.json` 的 `urls` 与 `id` 已按 `github.OLDnana1.better-reply` / `https://github.com/OLDnana1/maibot-better-reply` 填写；如果仓库改名，请同步修改这 4 个 URL 和 `id`。
+- 仓库不包含 `config.toml`：运行时由 Runner 根据 `config_model` 自动生成，默认值见上表。
 
 ## 许可
 
