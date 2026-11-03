@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "Better Reply 首条引用",
   "description": "为每个回复目标的第一条文字消息强制添加引用，同一目标的后续分段不再重复引用",
   "author": {
@@ -8,7 +8,7 @@
     "url": "https://github.com/OLDnana1"
   },
   "license": "MIT",
-  "plugin_type": "extension",
+  "plugin_type": "chat",
   "urls": {
     "repository": "https://github.com/OLDnana1/maibot-better-reply",
     "homepage": "https://github.com/OLDnana1/maibot-better-reply",
